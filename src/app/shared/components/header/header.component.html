@@ -1,1 +1,11 @@
-<p>header works!</p>
+<mat-toolbar class="header-toolbar">
+    <h1>Cities in the world</h1>
+    <div class="right-menu">
+      <button mat-button (click)="navigateToHome()">Home</button>
+      <span class="separator">-</span>
+      <button mat-button (click)="navigateToAbout()">About</button>
+      <span class="separator">-</span>
+      <button mat-button (click)="navigateToContact()">Contact</button>
+    </div>
+</mat-toolbar>
+  
