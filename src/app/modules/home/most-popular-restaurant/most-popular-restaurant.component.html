@@ -1,1 +1,16 @@
-<p>most-popular-restaurant works!</p>
+<div class="popular-restaurants-container">
+  <div class="text-center mb-4">
+    <h2>Most Popular Restaurants</h2>
+  </div>  
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col" *ngFor="let restaurant of popularRestaurants">
+      <div class="card">
+        <img [src]="restaurant.image" class="card-img-top rounded-circle" alt="Restaurant Image">
+        <div class="card-body">
+          <h5 class="card-title">{{ restaurant.name }}</h5>
+          <p class="card-text">{{ restaurant.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

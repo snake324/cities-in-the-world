@@ -4,37 +4,79 @@
         "name": "Madrid",
         "description": "Capital de España",
         "image": "../assets/images/madrid.jpg",
-        "popular": "4"
+        "popular": "4",
+        "popularRestaurants": [
+          {
+            "name": "Calamares",
+            "description": "Nuestra especialidad son los bocadillos de calamares",
+            "image": "assets/images/madrid-restaurant.jpg"
+          }
+        ]
       },
       {
         "name": "París",
         "description": "Capital de Francia",
         "image": "../assets/images/paris.jpg",
-        "popular": "1"
+        "popular": "1",
+        "popularRestaurants": [
+          {
+            "name": "Mesieur",
+            "description": "Nuestra especialidad es la Quiche Lorraine",
+            "image": "assets/images/paris-restaurant.jpg"
+          }
+        ]
       },
       {
         "name": "Roma",
         "description": "Capital de Italia",
         "image": "../assets/images/roma.jpg",
-        "popular": "2"
+        "popular": "2",
+        "popularRestaurants": [
+          {
+            "name": "Toscana",
+            "description": "Nuestra especialidad es la Calzone",
+            "image": "assets/images/roma-restaurant.jpg"
+          }
+        ]
       },
       {
         "name": "Berlín",
         "description": "Capital de Alemania",
         "image": "../assets/images/berlin.jpg",
-        "popular": "5"
+        "popular": "5",
+        "popularRestaurants": [
+          {
+            "name": "Bratwurst",
+            "description": "Nuestra especialidad son las Bratwurst asadas",
+            "image": "assets/images/berlin-restaurant.jpg"
+          }
+        ]
       },
       {
         "name": "Moscú",
         "description": "Capital de Rusia",
         "image": "../assets/images/moscu.jpg",
-        "popular": "6"
+        "popular": "6",
+        "popularRestaurants": [
+          {
+            "name": "Olivier",
+            "description": "Nuestra especialidad es la ensaladilla Olivier",
+            "image": "assets/images/moscu-restaurant.jpg"
+          }
+        ]
       },
       {
         "name": "Atenas",
         "description": "Capital de Grecia",
         "image": "../assets/images/atenas.jpg",
-        "popular": "3"
+        "popular": "3",
+        "popularRestaurants": [
+          {
+            "name": "Spanokopita",
+            "description": "Nuestra especialidad es la Spanokopita",
+            "image": "assets/images/atenas-restaurant.jpg"
+          }
+        ]
       }
     ]
 }
