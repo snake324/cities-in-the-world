@@ -1,1 +1,10 @@
-<p>ranking works!</p>
+<div class="row">
+  <div class="col-md-12">
+    <h2>Ranking - Most Visited</h2>
+    <div class="card" *ngFor="let city of cities">
+      <div class="card-body">
+        <h5 class="card-title">{{ city.name }}</h5>
+      </div>
+    </div>
+  </div>
+</div>

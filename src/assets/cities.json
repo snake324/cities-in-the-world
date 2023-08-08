@@ -1,0 +1,40 @@
+{
+    "cities": [
+      {
+        "name": "Madrid",
+        "description": "Capital de España",
+        "image": "../assets/images/madrid.jpg",
+        "popular": "4"
+      },
+      {
+        "name": "París",
+        "description": "Capital de Francia",
+        "image": "../assets/images/paris.jpg",
+        "popular": "1"
+      },
+      {
+        "name": "Roma",
+        "description": "Capital de Italia",
+        "image": "../assets/images/roma.jpg",
+        "popular": "2"
+      },
+      {
+        "name": "Berlín",
+        "description": "Capital de Alemania",
+        "image": "../assets/images/berlin.jpg",
+        "popular": "5"
+      },
+      {
+        "name": "Moscú",
+        "description": "Capital de Rusia",
+        "image": "../assets/images/moscu.jpg",
+        "popular": "6"
+      },
+      {
+        "name": "Atenas",
+        "description": "Capital de Grecia",
+        "image": "../assets/images/atenas.jpg",
+        "popular": "3"
+      }
+    ]
+}

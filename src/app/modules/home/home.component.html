@@ -1,14 +1,13 @@
-<body>
-    <header>
-      <app-header></app-header>
-    </header>
-    <main>
-      <app-banner></app-banner>
-      <app-ranking></app-ranking>
-      <app-cards></app-cards>
-      <app-most-popular-restaurant></app-most-popular-restaurant>
-    </main>
-    <footer>
-      <app-footer></app-footer>
-    </footer>
-</body>
+<app-header></app-header>
+<app-banner></app-banner>
+<div class="row">
+  <div class="col-md-1 mb-1">
+    <app-ranking></app-ranking>
+  </div>
+  <div class="col-md-10">
+    <app-cards></app-cards>
+  </div>
+</div>   
+<app-most-popular-restaurant></app-most-popular-restaurant>
+<app-footer></app-footer>
+
